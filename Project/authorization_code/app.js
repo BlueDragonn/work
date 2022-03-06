@@ -1,4 +1,3 @@
-
 var SpotifyWebApi = require('spotify-web-api-node');
 
 var spotifyApi = new SpotifyWebApi();
@@ -34,6 +33,8 @@ var generateRandomString = function(length) {
 };
 
 var stateKey = 'spotify_auth_state';
+
+
 
 var app = express();
 
